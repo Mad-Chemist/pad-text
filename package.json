@@ -1,0 +1,17 @@
+{
+  "name": "pad-text",
+  "version": "1.0.0",
+  "description": "Pad a string (prefix or suffix)",
+  "main": "index.js",
+  "license": "ISC",
+  "author": "https://github.com/Mad-Chemist",
+  "keywords": [
+  	"padtext",
+  	"pad-text",
+  	"text padding",
+  	"string padding",
+  	"number padding",
+  	"toFixed",
+  	"fixed length"
+  ]
+}
