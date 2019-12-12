@@ -1,6 +1,6 @@
 {
   "name": "pad-text",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pad a string (prefix or suffix)",
   "main": "index.js",
   "license": "ISC",
