@@ -33,9 +33,9 @@ The fourth and last argument is a boolean which represents whether the padding s
 
 ```
 const padText = require('pad-text');
-console.log("Page" + padText("Loading", 15, ".", false));
-console.log("Page" + padText("Loading 50%", 15, ".", false));
-console.log("Page" + padText("Loading 100%", 15, ".", false));
+console.log(padText("Loading", 15, ".", false));
+console.log(padText("Loading 50%", 15, ".", false));
+console.log(padText("Loading 100%", 15, ".", false));
 
 >  "Loading......"
 >  "Loading 50%.."
