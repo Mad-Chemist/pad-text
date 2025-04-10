@@ -11,7 +11,7 @@ function padText(text, padAmt, padChar=" ", prefix=true) {
 	padAmt = parseInt(padAmt, 10);
 
 	if (!isNaN(padAmt)) {
-		while (text && text.length < padAmt) {
+		while (text && !!padChar && text.length < padAmt) {
 			text = Boolean(prefix) ? (padChar + text) : (text + padChar);
 		}
 	}
